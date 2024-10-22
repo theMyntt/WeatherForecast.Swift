@@ -16,6 +16,7 @@
 		91C72FB92CC861E3009C9158 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FB82CC861E3009C9158 /* LocationsView.swift */; };
 		91C72FBE2CC8667F009C9158 /* WeatherDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FBD2CC8667F009C9158 /* WeatherDTO.swift */; };
 		91C72FC12CC866C7009C9158 /* ForecastDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FC02CC866C7009C9158 /* ForecastDTO.swift */; };
+		91C72FC42CC86721009C9158 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FC32CC86721009C9158 /* ForecastService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		91C72FB82CC861E3009C9158 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		91C72FBD2CC8667F009C9158 /* WeatherDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDTO.swift; sourceTree = "<group>"; };
 		91C72FC02CC866C7009C9158 /* ForecastDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDTO.swift; sourceTree = "<group>"; };
+		91C72FC32CC86721009C9158 /* ForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				91C72FB02CC85EDB009C9158 /* LocationsService.swift */,
+				91C72FC32CC86721009C9158 /* ForecastService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C72FC42CC86721009C9158 /* ForecastService.swift in Sources */,
 				91C72FC12CC866C7009C9158 /* ForecastDTO.swift in Sources */,
 				91C72FAC2CC85E5F009C9158 /* LocationsDTO.swift in Sources */,
 				91C72FB12CC85EDB009C9158 /* LocationsService.swift in Sources */,
