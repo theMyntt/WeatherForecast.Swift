@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ForecastDTO {
+struct ForecastDTO: Decodable, Identifiable {
     let cidade: String
     let estado: String
     let atualizado_em: String

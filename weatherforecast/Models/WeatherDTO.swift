@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WeatherDTO {
+struct WeatherDTO: Decodable, Identifiable {
     let data: String
     let condicao: String
     let min: Int
