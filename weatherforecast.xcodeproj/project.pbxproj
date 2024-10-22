@@ -56,6 +56,7 @@
 		91C72F992CC85D1D009C9158 /* weatherforecast */ = {
 			isa = PBXGroup;
 			children = (
+				91C72FB32CC860BB009C9158 /* ViewModels */,
 				91C72FAF2CC85EC8009C9158 /* Services */,
 				91C72FAA2CC85E43009C9158 /* Models */,
 				91C72F9A2CC85D1D009C9158 /* weatherforecastApp.swift */,
@@ -89,6 +90,13 @@
 				91C72FB02CC85EDB009C9158 /* LocationsService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		91C72FB32CC860BB009C9158 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
