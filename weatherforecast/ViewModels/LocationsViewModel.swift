@@ -19,7 +19,9 @@ class LocationsViewModel: ObservableObject {
     func fetchAllLocations() {
         service.fetchAllLocationsAsync { locations, errors in
             if let locations = locations {
-                self.items = locations
+                DispatchQueue.main.async {
+                    self.items = locations
+                }
             }
         }
     }
