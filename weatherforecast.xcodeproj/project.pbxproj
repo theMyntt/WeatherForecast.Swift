@@ -11,6 +11,7 @@
 		91C72F9D2CC85D1D009C9158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72F9C2CC85D1D009C9158 /* ContentView.swift */; };
 		91C72F9F2CC85D1E009C9158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C72F9E2CC85D1E009C9158 /* Assets.xcassets */; };
 		91C72FA22CC85D1E009C9158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C72FA12CC85D1E009C9158 /* Preview Assets.xcassets */; };
+		91C72FAC2CC85E5F009C9158 /* LocationsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FAB2CC85E5F009C9158 /* LocationsDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		91C72F9E2CC85D1E009C9158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91C72FA12CC85D1E009C9158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		91C72FA32CC85D1E009C9158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C72FAB2CC85E5F009C9158 /* LocationsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		91C72F992CC85D1D009C9158 /* weatherforecast */ = {
 			isa = PBXGroup;
 			children = (
+				91C72FAA2CC85E43009C9158 /* Models */,
 				91C72F9A2CC85D1D009C9158 /* weatherforecastApp.swift */,
 				91C72F9C2CC85D1D009C9158 /* ContentView.swift */,
 				91C72F9E2CC85D1E009C9158 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				91C72FA12CC85D1E009C9158 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91C72FAA2CC85E43009C9158 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91C72FAB2CC85E5F009C9158 /* LocationsDTO.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C72FAC2CC85E5F009C9158 /* LocationsDTO.swift in Sources */,
 				91C72F9D2CC85D1D009C9158 /* ContentView.swift in Sources */,
 				91C72F9B2CC85D1D009C9158 /* weatherforecastApp.swift in Sources */,
 			);
