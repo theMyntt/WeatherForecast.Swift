@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct LocationsView: View {
-    @StateObject private var viewModel = LocationsViewModel()
+    @ObservedObject var viewModel: LocationsViewModel
     
-    init() {
-        viewModel.fetchAllLocations()
+    init(viewModel: LocationsViewModel) {
+        self.viewModel = viewModel
+        self.viewModel.fetchAllLocations()
     }
     
     var body: some View {
@@ -27,6 +28,6 @@ struct LocationsView: View {
 
 struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationsView()
+        LocationsView(viewModel: LocationsViewModel())
     }
 }
