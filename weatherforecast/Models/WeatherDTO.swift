@@ -8,6 +8,8 @@
 import Foundation
 
 struct WeatherDTO: Decodable, Identifiable {
+    var id: Int
+    
     let data: String
     let condicao: String
     let min: Int

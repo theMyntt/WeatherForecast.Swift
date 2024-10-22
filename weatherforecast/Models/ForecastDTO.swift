@@ -8,6 +8,8 @@
 import Foundation
 
 struct ForecastDTO: Decodable, Identifiable {
+    var id: Int
+    
     let cidade: String
     let estado: String
     let atualizado_em: String
