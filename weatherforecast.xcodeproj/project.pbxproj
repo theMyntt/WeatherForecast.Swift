@@ -17,6 +17,7 @@
 		91C72FBE2CC8667F009C9158 /* WeatherDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FBD2CC8667F009C9158 /* WeatherDTO.swift */; };
 		91C72FC12CC866C7009C9158 /* ForecastDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FC02CC866C7009C9158 /* ForecastDTO.swift */; };
 		91C72FC42CC86721009C9158 /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FC32CC86721009C9158 /* ForecastService.swift */; };
+		91C72FCC2CC8698C009C9158 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C72FCB2CC8698C009C9158 /* ForecastViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		91C72FBD2CC8667F009C9158 /* WeatherDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDTO.swift; sourceTree = "<group>"; };
 		91C72FC02CC866C7009C9158 /* ForecastDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDTO.swift; sourceTree = "<group>"; };
 		91C72FC32CC86721009C9158 /* ForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastService.swift; sourceTree = "<group>"; };
+		91C72FCB2CC8698C009C9158 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				91C72FB42CC860D2009C9158 /* LocationsViewModel.swift */,
+				91C72FCB2CC8698C009C9158 /* ForecastViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C72FCC2CC8698C009C9158 /* ForecastViewModel.swift in Sources */,
 				91C72FC42CC86721009C9158 /* ForecastService.swift in Sources */,
 				91C72FC12CC866C7009C9158 /* ForecastDTO.swift in Sources */,
 				91C72FAC2CC85E5F009C9158 /* LocationsDTO.swift in Sources */,
