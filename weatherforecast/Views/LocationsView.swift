@@ -19,7 +19,7 @@ struct LocationsView: View {
         List {
             ForEach(viewModel.items) { item in
                 HStack {
-                    Text(item.nome)
+                    Text("\(item.nome) - \(item.estado)")
                 }
             }
         }
