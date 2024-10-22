@@ -11,7 +11,9 @@ import SwiftUI
 struct weatherforecastApp: App {
     var body: some Scene {
         WindowGroup {
-            LocationsView(viewModel: LocationsViewModel())
+            NavigationView {
+                LocationsView(viewModel: LocationsViewModel())
+            }
         }
     }
 }

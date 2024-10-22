@@ -23,11 +23,14 @@ struct LocationsView: View {
                 }
             }
         }
+        .navigationTitle("Localizações")
     }
 }
 
 struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationsView(viewModel: LocationsViewModel())
+        NavigationView {
+            LocationsView(viewModel: LocationsViewModel())
+        }
     }
 }
