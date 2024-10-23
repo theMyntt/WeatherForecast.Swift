@@ -20,6 +20,7 @@ struct LocationsView: View {
             ForEach(viewModel.items) { item in
                 HStack {
                     Text("\(item.nome) - \(item.estado)")
+                    NavigationLink("",destination: ForecastView(viewModel: ForecastViewModel(cityCode: item.id)))
                 }
             }
         }
