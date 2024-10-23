@@ -8,7 +8,7 @@
 import Foundation
 
 struct WeatherDTO: Decodable, Identifiable {
-    var id: Int
+    var id: String { data }
     
     let data: String
     let condicao: String

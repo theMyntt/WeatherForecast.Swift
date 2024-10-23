@@ -8,7 +8,7 @@
 import Foundation
 
 struct ForecastDTO: Decodable, Identifiable {
-    var id: Int
+    var id: UUID { UUID() }
     
     let cidade: String
     let estado: String
